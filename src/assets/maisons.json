@@ -1,0 +1,16 @@
+[
+    {
+        "nom": "Maison 1",
+        "prix": "23",
+        "image": "../../public/pexels_binyamin_mellish_106399_1.jpg",
+        "favori": true,
+        "nbrSDB": "3"
+    },
+    {
+        "nom": "Maison 2",
+        "prix": "34",
+        "image": "../../public/pexels_binyamin_mellish_106399_1.jpg",
+        "favori": false,
+        "nbrSDB": "1"
+    }
+]
