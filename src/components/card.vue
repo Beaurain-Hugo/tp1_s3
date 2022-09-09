@@ -1,6 +1,6 @@
 <script setup lang="ts">
-import bath from "./icones/bath.vue";
-import heart from "./icones/heart.vue";
+import Bath from "./icones/bath.vue";
+import Heart from "./icones/heart.vue";
 
 defineProps({
     nom: String,
