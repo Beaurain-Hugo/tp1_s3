@@ -17,11 +17,11 @@
         </div>
      <div class="p-2">
         <!-- On passe la "ref" à FormKit -->
-        <FormKit type="form" :config="{classes: {input: 'p-1 rounded border-gray-300 shadow-sm border', label: 'text-gray-600'}}" v-model="maison" >
+        <FormKit type="form" :submit-attrs="{ classes: { input: 'bg-indigo-300 p-1 rounded' } }" :config="{classes: {input: 'p-1 rounded  border-gray-300 shadow-sm border hover:bg-indigo-100', label: 'text-indigo-800'}}" v-model="maison" >
            <FormKit name="nom" label="Nom" />
            <FormKit name="prix" label="Prix" type="number" />
            <FormKit name="nbrSDB" label="Nombre de salle de bain" type="number" />
-           <FormKit name="favori" label="mettre en valeur"
+           <FormKit name="favori" label="Àjouter aux favoris"
            type="checkbox"  wrapper-class="flex" :submit-attrs="{ classes: { input: 'bg-red-300 p-1 rounded' } }"
  />
         </FormKit>
