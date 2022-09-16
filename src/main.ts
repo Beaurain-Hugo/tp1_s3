@@ -5,6 +5,9 @@ import routesFromPages from "~pages";
 
 import "./index.css";
 
+import { plugin, defaultConfig } from "@formkit/vue";
+
+
 const router = createRouter({
   history: createWebHistory(),
   routes: [
@@ -16,4 +19,6 @@ const router = createRouter({
 
 const app = createApp(App);
 app.use(router);
+app.use(plugin, defaultConfig);
+
 app.mount("#app");

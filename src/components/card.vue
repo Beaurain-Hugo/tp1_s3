@@ -16,7 +16,7 @@ defineProps({
     <!-- Pour changer la valeur d'un attribut on utilise un "binding" :
     https://vuejs.org/guide/essentials/template-syntax.html#attribute-bindings 
     Ici on affecte à l'attribut 'src' la 'props' "image" -->
-    <img class="w-full h-48 object-cover" :src="image" alt="" />
+    <img class="w-full h-48 object-cover" src="../../public/pexels_binyamin_mellish_106399_1.jpg" alt="" />
     <figcaption
       class="relative flex flex-col border-2 border-t-0 border-indigo-100"
     >
