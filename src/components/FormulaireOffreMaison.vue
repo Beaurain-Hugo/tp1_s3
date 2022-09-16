@@ -17,7 +17,7 @@
         </div>
      <div class="p-2">
         <!-- On passe la "ref" à FormKit -->
-        <FormKit type="form" :config="{classes: {input: 'p-1 rounded border-gray-300 shadow-sm border hover:bg-indigo-100', label: 'text-gray-600'}}" v-model="maison" >
+        <FormKit type="form" :config="{classes: {input: 'p-1 rounded border-gray-300 shadow-sm border', label: 'text-gray-600'}}" v-model="maison" >
            <FormKit name="nom" label="Nom" />
            <FormKit name="prix" label="Prix" type="number" />
            <FormKit name="nbrSDB" label="Nombre de salle de bain" type="number" />
